@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@color/colorTableHeader"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="55dp"
+                android:text="ID"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Mã BA "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Cân Nặng "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Nhóm Máu "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Nhiệt Độ "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Mạch "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Huyết Áp "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="150dp"
+                android:text=" Nhịp Thở "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Tình Trạng Hiện Tại "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Lý Do Khám "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Chẩn Đoán Sơ Bộ "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Yêu Cầu Thêm "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Chẩn Đoán Sau Cùng "
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+            <TextView
+                style="@style/textViewTableHeader"
+                android:layout_width="350dp"
+                android:text=" Hướng Điều Trị "
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+</layout>

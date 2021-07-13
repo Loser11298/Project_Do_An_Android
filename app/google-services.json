@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "759379838048",
+    "project_id": "project-qlbn",
+    "storage_bucket": "project-qlbn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759379838048:android:14794fd8c2aad62302af05",
+        "android_client_info": {
+          "package_name": "com.quan.datn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759379838048-ff532dl5gavcc0drr75iavv501ecm0ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quan.datn",
+            "certificate_hash": "1bb859aa00e4d3a9f99127c42772ebb96d982922"
+          }
+        },
+        {
+          "client_id": "759379838048-3fp4jhb6m6r4esv9d8hdjam4iu6acdch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnTw3J2j8HN1gW-YapM67Hddr2BGJ7yCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759379838048-3fp4jhb6m6r4esv9d8hdjam4iu6acdch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

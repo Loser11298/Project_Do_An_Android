@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="benhAn"
+            type="com.quan.datn.model.BenhAnModel" />
+    </data>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/onClickRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorTableRowOne"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/stt"
+                style="@style/textViewTableRowOne"
+                android:layout_width="55dp"
+                android:text="0" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                style="@style/textViewTableRowOne"
+                updateText="@{benhAn.thoiGianKham}"
+                android:layout_width="160dp"
+                android:text="Thời gian khám" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                style="@style/textViewTableRowOne"
+                updateText="@{benhAn.lyDoKham}"
+                android:layout_width="300dp"
+                android:text=" Lý do " />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</layout>
